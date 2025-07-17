@@ -20,7 +20,7 @@ app.use(morgan('dev'));
 
 app.use('/api/gemini', geminiRoute);
 
-const PORT = process.env.PORT || 5000;
+const PORT = 'https://janani-aarogya-meesho-front.onrender.com/';
 app.get('/', (req, res) => {
   res.send('✅ Janani Backend is Running!');
 });
