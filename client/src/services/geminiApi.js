@@ -45,7 +45,7 @@ ${prompt}
 
     // ---------- Call your backend → Gemini -------------------------------
     const { data } = await axios.post(
-      'https://janani-aarogya-meesho-backend.onrender.com',
+      'https://janani-aarogya-meesho-backend.onrender.com/api/gemini',
       { prompt: finalPrompt, lang }
     );
 
